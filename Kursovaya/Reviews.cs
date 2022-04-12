@@ -19,9 +19,29 @@ namespace Kursovaya
 
 		private void button4_Click(object sender, EventArgs e)
 		{
-			Reviews openForm = new Reviews();
+			StartMenu openForm = new StartMenu();
 			openForm.Show();
 			this.Hide();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox1.Text,"Ваш отзыв принят");
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox2.Text,"Ваш отзыв принят");
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox3.Text,"Ваш отзыв принят");
+		}
+
+		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
+	
 		}
 	}
 }

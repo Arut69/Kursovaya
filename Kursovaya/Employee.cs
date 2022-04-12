@@ -19,7 +19,7 @@ namespace Kursovaya
 
 		private void button4_Click(object sender, EventArgs e)
 		{
-			Employee openForm = new Employee();
+			StartMenu openForm = new StartMenu();
 			openForm.Show();
 			this.Hide();
 		}

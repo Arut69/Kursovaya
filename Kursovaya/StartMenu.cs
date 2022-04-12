@@ -22,18 +22,21 @@ namespace Kursovaya
 		{
 			Login Form1 = new Login();
 			Form1.ShowDialog();
+			this.Hide();
 		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
 			Home Form1 = new Home();
 			Form1.ShowDialog();
+			this.Hide();
 		}
 
 		private void button3_Click(object sender, EventArgs e)
 		{
 			Employee Form1 = new Employee();
 			Form1.ShowDialog();
+			this.Hide();
 		}
 
 		private void button6_Click(object sender, EventArgs e)
@@ -50,12 +53,19 @@ namespace Kursovaya
 		{
 		    Questions Form1 = new Questions();
 			Form1.ShowDialog();
+			this.Hide();
 		}
 
 		private void button5_Click(object sender, EventArgs e)
 		{
 			Reviews Form1 = new Reviews();
 			Form1.ShowDialog();
+			this.Hide();
+		}
+
+		private void button1_Click_1(object sender, EventArgs e)
+		{
+			Application.Exit();
 		}
 	}
 }

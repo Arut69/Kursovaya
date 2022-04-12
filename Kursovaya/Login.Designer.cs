@@ -65,9 +65,9 @@
 			this.label2.ForeColor = System.Drawing.Color.MediumPurple;
 			this.label2.Location = new System.Drawing.Point(62, 158);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(76, 24);
+			this.label2.Size = new System.Drawing.Size(78, 24);
 			this.label2.TabIndex = 4;
-			this.label2.Text = "User id";
+			this.label2.Text = "User ID";
 			// 
 			// button1
 			// 
@@ -79,6 +79,7 @@
 			this.button1.TabIndex = 5;
 			this.button1.Text = "Login";
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// button2
 			// 
@@ -116,7 +117,7 @@
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(82, 28);
 			this.button3.TabIndex = 9;
-			this.button3.Text = "Return";
+			this.button3.Text = "Exit";
 			this.button3.UseVisualStyleBackColor = false;
 			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
