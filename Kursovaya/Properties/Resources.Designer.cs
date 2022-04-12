@@ -73,6 +73,16 @@ namespace Kursovaya.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Вопросы_популярные {
+            get {
+                object obj = ResourceManager.GetObject("Вопросы популярные", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Замок {
             get {
                 object obj = ResourceManager.GetObject("Замок", resourceCulture);
@@ -116,6 +126,16 @@ namespace Kursovaya.Properties {
         internal static System.Drawing.Bitmap Отзывы {
             get {
                 object obj = ResourceManager.GetObject("Отзывы", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Отзывы_от_клиентов {
+            get {
+                object obj = ResourceManager.GetObject("Отзывы от клиентов", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

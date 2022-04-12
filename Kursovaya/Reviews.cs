@@ -10,23 +10,18 @@ using System.Windows.Forms;
 
 namespace Kursovaya
 {
-	public partial class Login : Form
+	public partial class Reviews : Form
 	{
-		public Login()
+		public Reviews()
 		{
 			InitializeComponent();
 		}
 
-		private void button3_Click(object sender, EventArgs e)
+		private void button4_Click(object sender, EventArgs e)
 		{
-			Login openForm = new Login();
+			Reviews openForm = new Reviews();
 			openForm.Show();
 			this.Hide();
-		}
-
-		private void Login_Load(object sender, EventArgs e)
-		{
-
 		}
 	}
 }

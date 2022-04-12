@@ -45,5 +45,17 @@ namespace Kursovaya
 		{
 		
 		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+		    Questions Form1 = new Questions();
+			Form1.ShowDialog();
+		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Reviews Form1 = new Reviews();
+			Form1.ShowDialog();
+		}
 	}
 }

@@ -117,38 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Обращение к персоналу" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Обращение к персоналу.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Отзывы" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Отзывы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Персонал в сборе" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Персонал в сборе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Человек и знаки" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Человек и знаки.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Вопросы" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Вопросы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Вопросы популярные" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Вопросы популярные.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Замок" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Замок.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="картинка техподдержки" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\картинка техподдержки.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Знак сапорта" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знак сапорта.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Персонаж" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Персонаж.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Отзывы от клиентов" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Отзывы от клиентов.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
