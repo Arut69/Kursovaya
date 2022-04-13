@@ -33,6 +33,7 @@ namespace Kursovaya
 			else
 			{
 				MessageBox.Show(textBox1.Text, "Персонал Антон принял ваш ответ в обработку, ожидайте ответ в ближайшее время");
+				textBox1.Clear();
 			}
 		}
 
@@ -45,6 +46,7 @@ namespace Kursovaya
 			else
 			{
 				MessageBox.Show(textBox2.Text, "Персонал Виктор принял ваш ответ в обработку, ожидайте ответ в ближайшее время");
+				textBox2.Clear();
 			}
 		}
 
@@ -57,6 +59,7 @@ namespace Kursovaya
 			else
 			{
 				MessageBox.Show(textBox3.Text, "Персонал Семен принял ваш ответ в обработку, ожидайте ответ в ближайшее время");
+				textBox3.Clear();
 			}
 		}
 

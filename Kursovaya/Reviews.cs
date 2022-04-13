@@ -33,6 +33,7 @@ namespace Kursovaya
 			else
 			{
 				MessageBox.Show(textBox1.Text, "Ваш отзыв принят");
+				textBox1.Clear();
 			}
 		}
 
@@ -45,6 +46,7 @@ namespace Kursovaya
 			else
 			{
 				MessageBox.Show(textBox2.Text, "Ваш отзыв принят");
+				textBox2.Clear();
 			}
 		}
 
@@ -57,6 +59,7 @@ namespace Kursovaya
 			else
 			{
 				MessageBox.Show(textBox3.Text, "Ваш отзыв принят");
+				textBox3.Clear();
 			}
 		}
 
