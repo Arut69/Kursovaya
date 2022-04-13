@@ -39,10 +39,9 @@ namespace Kursovaya
 		{
 			if (textBox1.Text == "Persona" && textBox2.Text == "persona123")
 			{
-				new Login().Show();
-				StartMenu Form1 = new StartMenu();
 				this.Hide();
-				Form1.ShowDialog();
+				StartMenu Form2 = new StartMenu();
+				Form2.ShowDialog();
 			}
 			else
 			{

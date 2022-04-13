@@ -19,9 +19,9 @@ namespace Kursovaya
 
 		private void button4_Click(object sender, EventArgs e)
 		{
+			this.Hide();
 			StartMenu openForm = new StartMenu();
 			openForm.Show();
-			this.Hide();
 		}
 
 		private void button1_Click(object sender, EventArgs e)
