@@ -16,7 +16,7 @@ namespace Kursovaya
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new StartMenu());
+			Application.Run(new Login());
 		}
 	}
 }

@@ -23,5 +23,20 @@ namespace Kursovaya
 			openForm.Show();
 			this.Hide();
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox1.Text, "Персонал Антон принял ваш ответ в обработку, ожидайте ответ в ближайшее время");
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox2.Text, "Персонал Виктор принял ваш ответ в обработку, ожидайте ответ в ближайшее время");
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox3.Text, "Персонал Семен принял ваш ответ в обработку, ожидайте ответ в ближайшее время");
+		}
 	}
 }

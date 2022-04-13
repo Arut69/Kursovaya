@@ -187,6 +187,7 @@
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "Reviews";
 			this.Text = "Reviews";
+			this.Load += new System.EventHandler(this.Reviews_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();

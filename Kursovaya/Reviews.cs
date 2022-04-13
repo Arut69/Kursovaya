@@ -43,5 +43,10 @@ namespace Kursovaya
 		{
 	
 		}
+
+		private void Reviews_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
