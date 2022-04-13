@@ -45,7 +45,7 @@ namespace Kursovaya
 			}
 			else
 			{
-				MessageBox.Show("Адрес пользователя или пароль введены неправильно, попробуйте еще раз");
+				MessageBox.Show("Адрес пользователя или пароль введены неправильно, либо поля пустые попробуйте еще раз");
 				textBox1.Clear();
 				textBox2.Clear();
 				textBox1.Focus();
@@ -57,6 +57,11 @@ namespace Kursovaya
 			textBox1.Clear();
 			textBox2.Clear();
 			textBox1.Focus();
+		}
+
+		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

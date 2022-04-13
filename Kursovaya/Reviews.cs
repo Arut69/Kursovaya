@@ -26,17 +26,38 @@ namespace Kursovaya
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show(textBox1.Text,"Ваш отзыв принят");
+			if (textBox1.TextLength == 0)
+			{
+				MessageBox.Show("Заполните поле!");
+			}
+			else
+			{
+				MessageBox.Show(textBox1.Text, "Ваш отзыв принят");
+			}
 		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show(textBox2.Text,"Ваш отзыв принят");
+			if (textBox2.TextLength == 0)
+			{
+				MessageBox.Show("Заполните поле!");
+			}
+			else
+			{
+				MessageBox.Show(textBox2.Text, "Ваш отзыв принят");
+			}
 		}
 
 		private void button3_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show(textBox3.Text,"Ваш отзыв принят");
+			if (textBox3.TextLength == 0)
+			{
+				MessageBox.Show("Заполните поле!");
+			}
+			else
+			{
+				MessageBox.Show(textBox3.Text, "Ваш отзыв принят");
+			}
 		}
 
 		private void textBox1_TextChanged(object sender, EventArgs e)
